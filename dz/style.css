@@ -1,0 +1,43 @@
+body {
+	background-color: #98ff98;
+}
+
+.text1 {
+	color: green;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.text1:hover { 
+  text-decoration-line: underline;
+}
+
+.box {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+img {
+	border: 2px solid #000000;
+	border-radius: 10px;
+	padding: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+img:hover { 
+  animation: scale1 2s infinite alternate;
+}
+
+@keyframes scale1 {
+  0% {scale: 1;}
+  100% {scale: 1.25;}
+}
+
+.box2 {
+	float: center;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	font-weight: bold;
+}
